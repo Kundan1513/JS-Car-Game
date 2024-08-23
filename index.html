@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="carSelection">
+        <h2>Select Your Car:</h2>
+        <img src="images/car1.png" class="selectable-car" data-car="images/car1.png">
+        <img src="images/car2.png" class="selectable-car" data-car="images/car2.png">
+        <img src="images/car3.png" class="selectable-car" data-car="images/car3.png">
+        <button id="startGame">Start Game</button>
+    </div>
+
+    <div id="gameArea">
+        <div class="road"></div> <!-- Road background -->
+        <img src="images/car1.png" class="car" id="car">
+        <div id="score">Score: 0</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
